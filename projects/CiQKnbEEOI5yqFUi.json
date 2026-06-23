@@ -1,0 +1,16 @@
+{
+  "id": "CiQKnbEEOI5yqFUi",
+  "name": "My project",
+  "icon": {
+    "type": "icon",
+    "value": "layers"
+  },
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "CiQKnbEEOI5yqFUi",
+    "teamName": "My project"
+  },
+  "variableStubs": []
+}

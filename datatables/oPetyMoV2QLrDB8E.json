@@ -1,0 +1,26 @@
+{
+  "id": "oPetyMoV2QLrDB8E",
+  "name": "Test",
+  "columns": [
+    {
+      "id": "8HErmlApveTVZ0z6",
+      "name": "renamed_column",
+      "type": "string",
+      "index": 0
+    },
+    {
+      "id": "mKJHtQcBksonkdoZ",
+      "name": "SecondColumn",
+      "type": "string",
+      "index": 1
+    }
+  ],
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "xVPb9LnbnZEk9Xbt",
+    "projectName": "Ali Elkhateeb <ali.elkhateeb@n8n.io>",
+    "personalEmail": "ali.elkhateeb@n8n.io"
+  },
+  "createdAt": "2026-04-27T09:01:01.500Z",
+  "updatedAt": "2026-05-13T11:34:57.851Z"
+}

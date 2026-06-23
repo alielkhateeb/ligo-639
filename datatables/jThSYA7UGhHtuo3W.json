@@ -1,0 +1,32 @@
+{
+  "id": "jThSYA7UGhHtuo3W",
+  "name": "New Boardssss",
+  "columns": [
+    {
+      "id": "OpSjgsUljsI912BA",
+      "name": "status",
+      "type": "string",
+      "index": 0
+    },
+    {
+      "id": "kcVVN8iYkeSGyRsW",
+      "name": "name",
+      "type": "string",
+      "index": 1
+    },
+    {
+      "id": "Lck8UF93xrAOGaKJ",
+      "name": "description",
+      "type": "string",
+      "index": 2
+    }
+  ],
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "xVPb9LnbnZEk9Xbt",
+    "projectName": "Ali Elkhateeb <ali.elkhateeb@n8n.io>",
+    "personalEmail": "ali.elkhateeb@n8n.io"
+  },
+  "createdAt": "2026-05-13T09:18:16.158Z",
+  "updatedAt": "2026-05-13T09:18:16.158Z"
+}

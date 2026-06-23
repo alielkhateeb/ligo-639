@@ -1,0 +1,13 @@
+{
+  "id": "LY4QZzqMgA5A8B7V",
+  "name": "Revenue Operations",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "LY4QZzqMgA5A8B7V",
+    "teamName": "Revenue Operations"
+  },
+  "variableStubs": []
+}

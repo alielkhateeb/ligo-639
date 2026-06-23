@@ -1,0 +1,13 @@
+{
+  "id": "lQ3y47ZYVw7rdfMy",
+  "name": "Support",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "lQ3y47ZYVw7rdfMy",
+    "teamName": "Support"
+  },
+  "variableStubs": []
+}

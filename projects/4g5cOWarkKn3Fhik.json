@@ -1,0 +1,13 @@
+{
+  "id": "4g5cOWarkKn3Fhik",
+  "name": "Bugs",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "4g5cOWarkKn3Fhik",
+    "teamName": "Bugs"
+  },
+  "variableStubs": []
+}

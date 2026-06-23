@@ -1,0 +1,16 @@
+{
+  "id": "p88xdWBWQdlDM2k9",
+  "name": "n8n account",
+  "type": "n8nApi",
+  "data": {
+    "apiKey": "",
+    "baseUrl": ""
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "xVPb9LnbnZEk9Xbt",
+    "projectName": "Ali Elkhateeb <ali.elkhateeb@n8n.io>",
+    "personalEmail": "ali.elkhateeb@n8n.io"
+  },
+  "isGlobal": false
+}

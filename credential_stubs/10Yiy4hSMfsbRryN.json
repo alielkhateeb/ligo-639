@@ -1,0 +1,14 @@
+{
+  "id": "10Yiy4hSMfsbRryN",
+  "name": "Action Network account 3",
+  "type": "actionNetworkApi",
+  "data": {
+    "apiKey": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "xFx7sUoGAyMA3zAV",
+    "teamName": "Community"
+  },
+  "isGlobal": false
+}

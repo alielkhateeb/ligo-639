@@ -1,0 +1,13 @@
+{
+  "id": "s3OR2wcrrqDWMmym",
+  "name": "Payday",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "s3OR2wcrrqDWMmym",
+    "teamName": "Payday"
+  },
+  "variableStubs": []
+}

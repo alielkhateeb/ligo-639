@@ -1,0 +1,38 @@
+{
+  "id": "qsFEXkQYs133UQgO",
+  "name": "New board",
+  "columns": [
+    {
+      "id": "eQm3PMtQyWtojRkd",
+      "name": "status",
+      "type": "string",
+      "index": 0
+    },
+    {
+      "id": "zt4XxNsef6bgvwuS",
+      "name": "name",
+      "type": "string",
+      "index": 1
+    },
+    {
+      "id": "i1ObG93qRG2x2Ilo",
+      "name": "description",
+      "type": "string",
+      "index": 2
+    },
+    {
+      "id": "8nYjW0X8nWj8uK5S",
+      "name": "statusChangedAt",
+      "type": "date",
+      "index": 3
+    }
+  ],
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "xVPb9LnbnZEk9Xbt",
+    "projectName": "Ali Elkhateeb <ali.elkhateeb@n8n.io>",
+    "personalEmail": "ali.elkhateeb@n8n.io"
+  },
+  "createdAt": "2026-05-13T12:44:19.921Z",
+  "updatedAt": "2026-05-13T12:44:19.921Z"
+}

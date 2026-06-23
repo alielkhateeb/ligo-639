@@ -1,0 +1,65 @@
+{
+  "id": "e2X3RypqL9LtLd6e",
+  "name": "My workflow 15",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "8487f44a-3f2a-4662-b402-7dc8da21700f",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "19b1c45e-35dc-4031-b7bf-7f2899456a24",
+      "name": "Webhook",
+      "webhookId": "8487f44a-3f2a-4662-b402-7dc8da21700f"
+    },
+    {
+      "parameters": {
+        "errorMessage": "NO!"
+      },
+      "type": "n8n-nodes-base.stopAndError",
+      "typeVersion": 1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "80db1c26-a4ee-4d53-8647-524ccd6f0368",
+      "name": "Stop and Error"
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Stop and Error",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timeSavedMode": "fixed",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false,
+    "errorWorkflow": "T7UEu7x29DbkyLsX"
+  },
+  "triggerCount": 1,
+  "versionId": "58136966-ae19-4bd5-8069-e5409c083e0e",
+  "owner": {
+    "type": "personal",
+    "projectId": "xVPb9LnbnZEk9Xbt",
+    "projectName": "Ali Elkhateeb <ali.elkhateeb@n8n.io>",
+    "personalEmail": "ali.elkhateeb@n8n.io"
+  },
+  "parentFolderId": null,
+  "isArchived": false,
+  "nodeGroups": []
+}

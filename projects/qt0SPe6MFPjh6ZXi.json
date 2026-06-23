@@ -1,0 +1,13 @@
+{
+  "id": "qt0SPe6MFPjh6ZXi",
+  "name": "Core",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "qt0SPe6MFPjh6ZXi",
+    "teamName": "Core"
+  },
+  "variableStubs": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "9SL0NUF2fwXPPO0A",
+  "name": "Github Security Advisory process",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "9SL0NUF2fwXPPO0A",
+    "teamName": "Github Security Advisory process"
+  },
+  "variableStubs": []
+}

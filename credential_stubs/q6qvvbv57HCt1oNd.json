@@ -1,0 +1,15 @@
+{
+  "id": "q6qvvbv57HCt1oNd",
+  "name": "Linear account",
+  "type": "linearApi",
+  "data": {
+    "apiKey": ""
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "xVPb9LnbnZEk9Xbt",
+    "projectName": "Ali Elkhateeb <ali.elkhateeb@n8n.io>",
+    "personalEmail": "ali.elkhateeb@n8n.io"
+  },
+  "isGlobal": false
+}

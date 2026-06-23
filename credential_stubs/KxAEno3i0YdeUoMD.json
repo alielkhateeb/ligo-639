@@ -1,0 +1,15 @@
+{
+  "id": "KxAEno3i0YdeUoMD",
+  "name": "Action Network account 2",
+  "type": "actionNetworkApi",
+  "data": {
+    "apiKey": "={{ $secrets['AliHasAWSVault'].zeta }}"
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "xVPb9LnbnZEk9Xbt",
+    "projectName": "Ali Elkhateeb <ali.elkhateeb@n8n.io>",
+    "personalEmail": "ali.elkhateeb@n8n.io"
+  },
+  "isGlobal": false
+}

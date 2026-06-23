@@ -1,0 +1,13 @@
+{
+  "id": "LKocnWApx6657rVB",
+  "name": "Sales Processes",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "LKocnWApx6657rVB",
+    "teamName": "Sales Processes"
+  },
+  "variableStubs": []
+}

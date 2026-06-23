@@ -1,0 +1,18 @@
+{
+  "id": "3BiAfIkX17vf9t5h",
+  "name": "Azure Open AI account",
+  "type": "azureOpenAiApi",
+  "data": {
+    "apiKey": "",
+    "resourceName": "",
+    "apiVersion": "",
+    "endpoint": ""
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "xVPb9LnbnZEk9Xbt",
+    "projectName": "Ali Elkhateeb <ali.elkhateeb@n8n.io>",
+    "personalEmail": "ali.elkhateeb@n8n.io"
+  },
+  "isGlobal": false
+}

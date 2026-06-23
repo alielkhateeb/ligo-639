@@ -1,0 +1,20 @@
+{
+  "id": "Lu5DZxCmkMJtIUjX",
+  "name": "AI Assistant",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "Lu5DZxCmkMJtIUjX",
+    "teamName": "AI Assistant"
+  },
+  "variableStubs": [
+    {
+      "id": "rpbO1nXDAE2wCGvB",
+      "key": "proj_var",
+      "type": "string",
+      "value": ""
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "xFx7sUoGAyMA3zAV",
+  "name": "Community",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "xFx7sUoGAyMA3zAV",
+    "teamName": "Community"
+  },
+  "variableStubs": []
+}

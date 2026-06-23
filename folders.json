@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "id": "RhW5AKfVBeMZ1SzM",
+      "name": "Prod",
+      "parentFolderId": null,
+      "homeProjectId": "xVPb9LnbnZEk9Xbt",
+      "createdAt": "2026-02-26T07:44:13.391Z",
+      "updatedAt": "2026-02-26T07:44:13.391Z"
+    },
+    {
+      "id": "F9ieXq6Ri5mb3DPj",
+      "name": "Nested",
+      "parentFolderId": "RhW5AKfVBeMZ1SzM",
+      "homeProjectId": "xVPb9LnbnZEk9Xbt",
+      "createdAt": "2026-02-26T08:17:52.799Z",
+      "updatedAt": "2026-02-26T08:17:52.799Z"
+    },
+    {
+      "id": "5ZVqHcoEAXm5QMk2",
+      "name": "New Folder ALI",
+      "parentFolderId": "F9ieXq6Ri5mb3DPj",
+      "homeProjectId": "xVPb9LnbnZEk9Xbt",
+      "createdAt": "2026-02-26T08:37:05.258Z",
+      "updatedAt": "2026-02-26T08:37:05.258Z"
+    },
+    {
+      "id": "ZGYgJdi1o2dVLGVC",
+      "name": "Folder C",
+      "parentFolderId": null,
+      "homeProjectId": "xFx7sUoGAyMA3zAV",
+      "createdAt": "2026-04-23T12:18:47.705Z",
+      "updatedAt": "2026-04-23T12:18:47.705Z"
+    }
+  ]
+}

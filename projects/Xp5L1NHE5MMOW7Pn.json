@@ -1,0 +1,13 @@
+{
+  "id": "Xp5L1NHE5MMOW7Pn",
+  "name": "Course",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "Xp5L1NHE5MMOW7Pn",
+    "teamName": "Course"
+  },
+  "variableStubs": []
+}

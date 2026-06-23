@@ -1,0 +1,20 @@
+{
+  "id": "JSkK6Ge2PKJMtgn5",
+  "name": "Adore",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "JSkK6Ge2PKJMtgn5",
+    "teamName": "Adore"
+  },
+  "variableStubs": [
+    {
+      "id": "NPZcaM2X1lAzvQx8",
+      "key": "proj_var",
+      "type": "string",
+      "value": ""
+    }
+  ]
+}

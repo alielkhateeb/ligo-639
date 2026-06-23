@@ -1,0 +1,13 @@
+{
+  "id": "SxqvRlQnS1KHkmD1",
+  "name": "Solutions Engineering Processes",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "SxqvRlQnS1KHkmD1",
+    "teamName": "Solutions Engineering Processes"
+  },
+  "variableStubs": []
+}

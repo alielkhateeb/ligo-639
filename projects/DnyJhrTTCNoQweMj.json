@@ -1,0 +1,13 @@
+{
+  "id": "DnyJhrTTCNoQweMj",
+  "name": "AI Team",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "DnyJhrTTCNoQweMj",
+    "teamName": "AI Team"
+  },
+  "variableStubs": []
+}

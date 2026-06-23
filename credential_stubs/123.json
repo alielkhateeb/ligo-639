@@ -1,0 +1,17 @@
+{
+  "id": "123",
+  "name": "cred-aws-test",
+  "type": "aws",
+  "data": {
+    "region": "",
+    "accessKeyId": "",
+    "secretAccessKey": ""
+  },
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "xVPb9LnbnZEk9Xbt",
+    "projectName": "Ali Elkhateeb <ali.elkhateeb@n8n.io>",
+    "personalEmail": "ali.elkhateeb@n8n.io"
+  },
+  "isGlobal": false
+}

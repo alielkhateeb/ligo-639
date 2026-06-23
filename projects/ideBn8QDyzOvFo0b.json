@@ -1,0 +1,13 @@
+{
+  "id": "ideBn8QDyzOvFo0b",
+  "name": "Analytics",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "ideBn8QDyzOvFo0b",
+    "teamName": "Analytics"
+  },
+  "variableStubs": []
+}

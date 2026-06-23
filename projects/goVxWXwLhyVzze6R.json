@@ -1,0 +1,13 @@
+{
+  "id": "goVxWXwLhyVzze6R",
+  "name": "Finance",
+  "icon": null,
+  "description": null,
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "goVxWXwLhyVzze6R",
+    "teamName": "Finance"
+  },
+  "variableStubs": []
+}
