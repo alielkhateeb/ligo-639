@@ -1,6 +1,6 @@
 {
   "id": "e2X3RypqL9LtLd6e",
-  "name": "My workflow 15",
+  "name": "My workflow 15 (review test)",
   "nodes": [
     {
       "parameters": {
@@ -19,7 +19,7 @@
     },
     {
       "parameters": {
-        "errorMessage": "NO!"
+        "errorMessage": "Review test: webhook received"
       },
       "type": "n8n-nodes-base.stopAndError",
       "typeVersion": 1,
