@@ -19,6 +19,29 @@
     },
     {
       "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+              "name": "reviewStatus",
+              "value": "processed",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        104,
+        0
+      ],
+      "id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "name": "Set Fields"
+    },
+    {
+      "parameters": {
         "errorMessage": "Review test: webhook received"
       },
       "type": "n8n-nodes-base.stopAndError",
@@ -33,6 +56,17 @@
   ],
   "connections": {
     "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Set Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Fields": {
       "main": [
         [
           {
