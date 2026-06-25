@@ -1,0 +1,136 @@
+{
+  "id": "kPTQBID3sSCGsv3X",
+  "name": "My workflow 5",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "1928d8a3-c527-4ff4-8be5-8ced4191f6de",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        208,
+        0
+      ],
+      "id": "60c0ff8a-9e8f-40ac-afd2-411d3b574e8a",
+      "name": "When chat message received",
+      "webhookId": "f97bc12f-7b9e-4501-a546-3d797cd07827"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        416,
+        0
+      ],
+      "id": "89e21755-85da-4276-a306-bcc434ab942e",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        768,
+        0
+      ],
+      "id": "7e6f4607-f0d1-4604-a796-65a16dc466f6",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        976,
+        0
+      ],
+      "id": "b4f9cee6-689d-435a-918d-678108b8f024",
+      "name": "HTTP Request1"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request1": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "triggerCount": 0,
+  "versionId": "db1fa1e2-36da-4299-8369-16b9c5a0a5ed",
+  "owner": {
+    "type": "personal",
+    "projectId": "xVPb9LnbnZEk9Xbt",
+    "projectName": "Ali Elkhateeb <ali.elkhateeb@n8n.io>",
+    "personalEmail": "ali.elkhateeb@n8n.io"
+  },
+  "parentFolderId": null,
+  "isArchived": false,
+  "nodeGroups": []
+}
