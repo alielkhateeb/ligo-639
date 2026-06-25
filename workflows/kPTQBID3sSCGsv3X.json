@@ -65,6 +65,19 @@
       ],
       "id": "b4f9cee6-689d-435a-918d-678108b8f024",
       "name": "HTTP Request1"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1184,
+        0
+      ],
+      "id": "8f88f6d5-048b-4948-b0ed-508be0307236",
+      "name": "Edit Fields"
     }
   ],
   "connections": {
@@ -114,7 +127,13 @@
     },
     "HTTP Request1": {
       "main": [
-        []
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
       ]
     }
   },
@@ -123,7 +142,7 @@
     "binaryMode": "separate"
   },
   "triggerCount": 0,
-  "versionId": "db1fa1e2-36da-4299-8369-16b9c5a0a5ed",
+  "versionId": "a4ad66fb-8e73-4e27-9923-c77399222787",
   "owner": {
     "type": "personal",
     "projectId": "xVPb9LnbnZEk9Xbt",
