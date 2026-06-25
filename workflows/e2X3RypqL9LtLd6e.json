@@ -1,6 +1,6 @@
 {
   "id": "e2X3RypqL9LtLd6e",
-  "name": "My workflow 15",
+  "name": "My workflow 15 (review test)",
   "nodes": [
     {
       "parameters": {
@@ -10,8 +10,8 @@
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2.1,
       "position": [
-        0,
-        0
+        240,
+        300
       ],
       "id": "19b1c45e-35dc-4031-b7bf-7f2899456a24",
       "name": "Webhook",
@@ -19,13 +19,36 @@
     },
     {
       "parameters": {
-        "errorMessage": "NO!"
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+              "name": "reviewStatus",
+              "value": "processed",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        480,
+        300
+      ],
+      "id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+      "name": "Set Fields"
+    },
+    {
+      "parameters": {
+        "errorMessage": "Review test: webhook received"
       },
       "type": "n8n-nodes-base.stopAndError",
       "typeVersion": 1,
       "position": [
-        208,
-        0
+        720,
+        300
       ],
       "id": "80db1c26-a4ee-4d53-8647-524ccd6f0368",
       "name": "Stop and Error"
@@ -33,6 +56,17 @@
   ],
   "connections": {
     "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Set Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Fields": {
       "main": [
         [
           {
